@@ -1,0 +1,228 @@
+/*SECTION 1: INTRO*/
+
+.intro {
+  background: url("/public/images/Mountains_cold.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+.nav-bar {
+  float: right;
+  margin: 10px 30px;
+  padding: 0px;
+}
+
+.navigation {
+  display: inline;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: white;
+  margin: 10px 10px;
+}
+
+a { 
+  text-decoration: none;
+  color: white;
+  text-shadow: 5px 5px 5px #333;
+}
+
+.title {
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  color: white;
+  text-shadow: 7px 7px 10px #333;
+ }
+
+/*SECTION 2: ABOUT ME*/
+
+ .about {
+  background-color: #008b8b;
+  height: 295px;
+  width: 100vw;
+  z-index: 100;
+}
+
+.corey-candid {
+  border-radius: 50%;
+  height: 250px;
+  margin: 25px 0px;
+}
+
+.about-me-header {
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 3px 3px 5px #333;
+  font-size: 24px;
+  color: white;
+  margin: 20px 0 20px 0;
+}
+
+.about-me-p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+/*SECTION 3: PORTFOLIO*/
+
+.portfolio {
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* transform: translateY(-2.5%);  */
+  justify-content: middle;
+}
+
+.portfolio-header {
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 3px #999;
+  font-size: 35px;
+  color: #777;
+  margin-bottom: 25px;   
+}
+
+.project1 {
+  width: 100%;
+  box-shadow: 5px 5px 10px #333;
+}
+
+.project2 {
+  width: 100%;
+  box-shadow: 5px 5px 10px #333;
+}
+
+.project3 {
+  width: 100%;
+  height: 203.33px; 
+  box-shadow: 5px 5px 10px #333;
+}
+
+.description {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover {
+  box-shadow: 0px 0px 50px #333;
+  z-index: 2;
+  transition: all 400ms ease-in;
+  transform: scale(1.1);
+}
+
+.social-media img {
+  margin: 20px 5px;
+  height: 35px;
+  width: 35px; 
+} 
+
+/*SECTION 4*/
+
+.banner {
+  background-color: #778899;
+  height: 295px;
+  width: 100%;
+  z-index: 100;
+}
+
+#banner-content {
+  position: relative;
+  top: 50%; 
+  transform: translateY(-50%);  
+}
+
+.languages h1 {
+  margin-bottom: 0px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-shadow: 3px 3px 5px #333;
+}
+
+.languages img {
+  height: 75px;
+  margin: 0px 50px;
+}
+
+/*SECTION 5*/
+
+.beach {
+  background: url("/public/images/beach_pics.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+ }
+
+.contact-h1 {
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  padding: 75px; 
+  z-index: -1;
+  position: relative;
+  text-align:right;
+ }
+
+.contact-form {
+  position: relative;
+  top: 10%; 
+}
+
+.parallax {
+  position: absolute;
+  margin-top: 1000px;
+}
+
+.parallax2 {
+  position: absolute;
+  margin-top: 1750px;
+}
+
+/*THANKS */
+
+.body-image {
+  background: url("/public/images/mountain-thanks.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#thank-you-text {
+  min-height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.thank-you-h1 {
+  font-size: 100px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-shadow: 3px 3px 3px #777;
+  text-align: center;
+}
+
+.thank-you-h2 {
+  font-size: 75px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-shadow: 3px 3px 3px #777;
+  text-align: center;
+}
+ 
+   /* * {
+  border: red solid 1px;
+}     */
