@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const client = require('twilio')(
   process.env.TWILIO_ACCOUNT_SID,
-  process.env.TWILIO_ACCOUNT_AUTH_TOKEN
+  process.env.TWILIO_AUTH_TOKEN
 );
 
 app.use(morgan('dev'));
