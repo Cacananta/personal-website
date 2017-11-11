@@ -42,6 +42,3 @@ app.post('/thanks', (req, res) => {
 app.listen(8080, () => {
   console.log('listening at http://localhost:8080');
 });
-
-//TWILIO EMERGENCY CODE: 
-//2RBiiOdwPWZulwpPa0ZSfgy/+4ABngvFTlV//e1R
