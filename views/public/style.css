@@ -50,8 +50,7 @@ a {
 
 .corey-candid {
   border-radius: 50%;
-  height: 250px;
-  margin: 25px 0px;
+  margin: 20px 0px; 
 }
 
 .about-me-header {
@@ -100,7 +99,6 @@ a {
 
 .project3 {
   width: 100%;
-  height: 203.33px; 
   box-shadow: 5px 5px 10px #333;
 }
 
@@ -222,13 +220,218 @@ a {
   text-shadow: 3px 3px 3px #777;
   text-align: center;
 }
- 
-   /* * {
-  border: red solid 1px;
-}     */
 
-
-
-
+            /* * {
+   border: red solid 1px; 
+}         */
 
 /* MEDIA QUERY */
+
+
+@media (min-width : 320px) and (max-width : 480px) {
+
+/* INTRO */
+
+  .nav-bar {
+    float: none;
+    margin: 0 30px;
+    text-align: center;
+  }
+  .navigation {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 40px;
+    text-align: center; 
+  }
+  .intro-title {
+    top: 50%;
+    transform: translate(-21%, -50%);
+    display: block;
+  }
+
+/* ABOUT */
+
+  .parallax,
+  .parallax2 {
+    margin: 0;
+    position: relative;
+  }
+  .col-md-3 {
+    text-align: center;
+  }
+  .about-me-p {
+     font-size: 15px; 
+  }
+  .about {
+    height: 125vh;
+  }
+
+/* PORTFOLIO */
+
+  .portfolio {
+    height: 200vh;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: middle;
+  }
+
+/* BANNER */
+  .banner {
+    height: 75vh;
+  }
+  .mern-pic {
+  width: 70px;
+  height: 70px;
+  }
+  
+/* CONTACT */
+  .beach {
+    height: 125vh;
+  }
+  .contact-h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 764px) {
+
+/* INTRO */
+
+  .nav-bar {
+    float: none;
+    margin: 0 30px;
+    text-align: center;
+  }
+  .navigation {
+    font-size: 24px;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center; 
+  }
+  .intro-title {
+    top: 50%;
+    transform: translate(-10%, -50%);
+    display: block;
+  }
+
+/* ABOUT */
+
+  .parallax,
+  .parallax2 {
+    margin: 0;
+    position: relative;
+  }
+  .col-md-3 {
+    text-align: center;
+  }
+  .about-me-p {
+     font-size: 15px; 
+  }
+  .about {
+    height: 110vh;
+  }
+
+/* PORTFOLIO */
+
+  .portfolio {
+    height: 200vh;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: middle;
+  }
+
+/* BANNER */
+  .banner {
+    height: 50vh;
+  }
+  .mern-pic {
+  width: 70px;
+  height: 70px;
+  }
+  
+/* CONTACT */
+  .beach {
+    height: 100vh;
+  }
+  .contact-h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 765px) and (max-width: 1024px) {
+
+/* INTRO */
+
+  .nav-bar {
+    float: none;
+    margin: 0 30px;
+    text-align: center;
+  }
+  .navigation {
+    font-size: 32px;
+  }
+  .title {
+    font-size: 80px;
+    text-align: center; 
+  }
+  .intro-title {
+    top: 50%;
+    transform: translate(-10%, -50%);
+    display: block;
+  }
+
+/* ABOUT */
+
+  .parallax,
+  .parallax2 {
+    margin: 0;
+    position: relative;
+  }
+  .col-md-3 {
+    text-align: center;
+  }
+  .about-me-p {
+     font-size: 15px; 
+  }
+  .about {
+    height: 50vh;
+  }
+
+/* PORTFOLIO */
+
+  .portfolio {
+    height: 75vh;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: middle;
+  }
+
+/* BANNER */
+  .banner {
+    height: 50vh;
+  }
+  .mern-pic {
+  width: 70px;
+  height: 70px;
+  }
+  
+/* CONTACT */
+  .beach {
+    height: 100vh;
+  }
+  .contact-h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) {
+
+}

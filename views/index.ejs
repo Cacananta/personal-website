@@ -8,28 +8,32 @@
 
   <body>
     <section class="intro">
-          <nav>
-            <ul class="nav-bar">
-              <li class="navigation"><a href="#about">about</a></li>
-              <li class="navigation"><a href="#about">portfolio</a></li>
-              <li class="navigation"><a href="#contact">contact</a></li>
-            </ul>
-          </nav>
-        <h1 class="title">Corey Cacananta</h1>
+      <div>
+        <nav>
+          <ul class="nav-bar">
+            <li class="navigation"><a href="#about">about</a></li>
+            <li class="navigation"><a href="#about">portfolio</a></li>
+            <li class="navigation"><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+        <div class="intro-title">
+          <h1 class="title">Corey Cacananta</h1>
+        </div>
+      </div>
     </section>
 
     <section class="about parallax" name="about">
       <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-              <img class="corey-candid" src="public/images/Corey_candid.jpg" alt="Corey"/>
-            </div>
-              <div class="col-md-9">
-                <h1 class="about-me-header">about me</h1>
-                <p class="about-me-p">I'm a former financial analyst learning to code. My work experience has facilitated my transition to thinking like a full stack JavaScript developer. I enjoy solving problems and especially like using data to create value-added solutions. I have been successful at this because analytical thinking comes naturally to me. I enjoy 
-                collaborating and welcome any opportunity to network and learn. The most important concepts I've learned through coding is to enjoy the process and never underestimate the power of curiosity.
-                </p>
-              </div>
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <img class="corey-candid img-fluid" src="public/images/Corey_candid.jpg" alt="Corey"/>
+          </div>
+          <div class="col-md-9">
+            <h1 class="about-me-header">about me</h1>
+            <p class="about-me-p">I'm a former financial analyst learning to code. My work experience has facilitated my transition to thinking like a full stack JavaScript developer. I enjoy solving problems and especially like using data to create value-added solutions. I have been successful at this because analytical thinking comes naturally to me. I enjoy 
+            collaborating and welcome any opportunity to network and learn. The most important concepts I've learned through coding is to enjoy the process and never underestimate the power of curiosity.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -56,8 +60,10 @@
           </div>
           <div class="col-md-4">
             <div >
-              <img src="/public/images/golden_retriever_puppy-wide.jpg" alt="Placeholder" class="project3" />
-              <p class="description">Hello World</p>
+              <a href="https://cc-movie-finder.herokuapp.com/" target="_blank">
+                <img src="/public/images/movie-finder.png" alt="Movie Finder App" class="project3" />
+              </a>
+              <p class="description">Movie Finder App</p>
           </div>
         </div>
         <div class="container social-media">
@@ -81,10 +87,10 @@
           <div class="row justify-content-center">
             <div class="col-md-12 text-center">
               <div class="languages">
-                <img src="public/images/js.jpg" alt="JavaScript"/>
-                <img src="public/images/React.png" alt="React"/>
-                <img src="public/images/Node.png" alt="Node"/>
-                <img src="public/images/Mongodb.png" alt="MongoDB"/>
+                <img class="mern-pic" src="public/images/js.jpg" alt="JavaScript"/>
+                <img class="mern-pic" src="public/images/React.png" alt="React"/>
+                <img class="mern-pic" src="public/images/Node.png" alt="Node"/>
+                <img class="mern-pic" src="public/images/Mongodb.png" alt="MongoDB"/>
               </div>
             </div>
           </div>
@@ -102,25 +108,25 @@
           </div>
         </div>
             <div class="container contact-form" name="contact">
-              <div class="container col-6">
+              <div class="container col-9 contact-form">
                 <form action="/thanks" method="POST">
                   <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon1">First Name</span>
+                    <span class="input-group-addon" id="basic-addon1">First</span>
                     <input name="first_name" type="text" class="form-control" aria-describedby="basic-addon1">
                   </div>
                   <br>
                   <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon2">Last Name</span>
+                    <span class="input-group-addon" id="basic-addon2">Last</span>
                     <input name="last_name" type="text" class="form-control" aria-describedby="basic-addon2">
                   </div>
                   <br>
                   <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon3">E-mail Address</span>            
+                    <span class="input-group-addon" id="basic-addon3">E-mail</span>            
                     <input name="email" type="text" class="form-control" aria-describedby="basic-addon3">
                   </div>
                   <br>
                   <div class="input-group">
-                    <span class="input-group-addon" id="basic-addon4">Comment</span>
+                    <span class="input-group-addon" id="basic-addon4">Note</span>
                     <input name="comment" type="text" class="form-control" aria-describedby="basic-addon4" placeholder="What do you want to chat about?"/>
                   </div>
                   <br>
