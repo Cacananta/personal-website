@@ -3,7 +3,8 @@ $(document).ready(function () {
   // Parallax Scrolling
   var scale = 0.4;
   function parallaxScroll() {
-    if ($(window).width() <= 1024) {
+    if ($(window).width() <= 1023 || $(window).height() <= 719) {
+      console.log($(window).height())
       console.log("parallax: off")
     } else {
       var scrollTop = $(window).scrollTop();

@@ -4,6 +4,7 @@
   "description": "My personal portfolio",
   "main": "index.js",
   "scripts": {
+    "build": "npm run start && webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./views/server.js"
   },

@@ -220,15 +220,16 @@ a {
   text-shadow: 3px 3px 3px #777;
   text-align: center;
 }
-
-            /* * {
+ 
+             /* * {
    border: red solid 1px; 
-}         */
+}           */
 
-/* MEDIA QUERY */
+/* MEDIA QUERIES */
 
+/* Horizontal  */
 
-@media (min-width : 320px) and (max-width : 480px) {
+@media (min-width : 320px) and (max-width : 399px) {
 
 /* INTRO */
 
@@ -252,6 +253,9 @@ a {
 
 /* ABOUT */
 
+.corey-candid {
+  height: 200px;
+}
   .parallax,
   .parallax2 {
     margin: 0;
@@ -261,16 +265,16 @@ a {
     text-align: center;
   }
   .about-me-p {
-     font-size: 15px; 
+     font-size: 14px; 
   }
   .about {
-    height: 125vh;
+    height: 100vh;
   }
 
 /* PORTFOLIO */
 
   .portfolio {
-    height: 200vh;
+    height: 140vh;
     position: relative;
     display: flex; 
     align-items: center;
@@ -284,11 +288,12 @@ a {
   .mern-pic {
   width: 70px;
   height: 70px;
+  margin-top: 15px;
   }
   
 /* CONTACT */
   .beach {
-    height: 125vh;
+    height: 120vh;
   }
   .contact-h1 {
     font-size: 50px;
@@ -296,7 +301,152 @@ a {
   }
 }
 
-@media (min-width: 481px) and (max-width: 764px) {
+@media (min-width: 400px) and (max-width: 499px) {
+
+/* INTRO */
+
+  .nav-bar {
+    float: none;
+    margin: 0 30px;
+    text-align: center;
+  }
+  .navigation {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 40px;
+    text-align: center; 
+  }
+  .intro-title {
+    top: 50%;
+    transform: translate(-16%, -50%);
+    display: block;
+  }
+
+/* ABOUT */
+
+  .parallax,
+  .parallax2 {
+    margin: 0;
+    position: relative;
+  }
+  .col-md-3 {
+    text-align: center;
+  }
+  .about-me-p {
+     font-size: 16px; 
+  }
+  .about {
+    height: 100vh;
+  }
+
+/* PORTFOLIO */
+
+  .portfolio {
+    height: 140vh;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: middle;
+  }
+
+/* BANNER */
+  .banner {
+    height: 50vh;
+  }
+  .mern-pic {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  }
+  
+/* CONTACT */
+  .beach {
+    height: 100vh;
+  }
+  .contact-h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+
+/* INTRO */
+
+  .nav-bar {
+    float: none;
+    margin: 0 30px;
+    text-align: center;
+  }
+  .navigation {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 40px;
+    text-align: center; 
+  }
+  .intro-title {
+    transform: translate(3%, 100%);
+    display: block;
+  }
+
+/* ABOUT */
+  .corey-candid {
+    height: 150px;
+  }
+  .parallax,
+  .parallax2 {
+    margin: 0;
+    position: relative;
+  }
+  .col-md-3 {
+    text-align: center;
+  }
+  .about-me-p {
+     font-size: 14.5px; 
+  }
+  .about {
+    height: 150vh;
+  }
+
+/* PORTFOLIO */
+
+  .portfolio {
+    height: 1050px;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: middle;
+  }
+
+  .project1,
+  .project2,
+  .project3 {
+     height: 250px; 
+  }
+
+/* BANNER */
+  .banner {
+    height: 100vh;
+  }
+  .mern-pic {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  }
+  
+/* CONTACT */
+  .beach {
+    height: 175vh;
+  }
+  .contact-h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 749px) {
 
 /* INTRO */
 
@@ -319,7 +469,9 @@ a {
   }
 
 /* ABOUT */
-
+  .corey-candid {
+    height: 150px;
+  }
   .parallax,
   .parallax2 {
     margin: 0;
@@ -329,7 +481,7 @@ a {
     text-align: center;
   }
   .about-me-p {
-     font-size: 15px; 
+     font-size: 14px; 
   }
   .about {
     height: 110vh;
@@ -338,7 +490,7 @@ a {
 /* PORTFOLIO */
 
   .portfolio {
-    height: 200vh;
+    height: 310vh;
     position: relative;
     display: flex; 
     align-items: center;
@@ -356,6 +508,76 @@ a {
   
 /* CONTACT */
   .beach {
+    height: 160vh;
+  }
+  .contact-h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 950px) {
+
+/* INTRO */
+  .intro {
+    height: 100vh;
+  }
+  .nav-bar {
+    float: none;
+    margin: 0 30px;
+    text-align: center;
+  }
+  .navigation {
+    font-size: 24px;
+  }
+  .title {
+    font-size: 60px;
+    text-align: center; 
+  }
+  .intro-title {
+    top: 50%;
+    transform: translate(-10%, -50%);
+    display: block;
+  }
+
+/* ABOUT */
+
+  .parallax,
+  .parallax2 {
+    margin: 0;
+    position: relative;
+  }
+  .col-md-3 {
+    text-align: center;
+  }
+  .about-me-p {
+     font-size: 15px; 
+  }
+  .about {
+    height: 25vh;
+  }
+
+/* PORTFOLIO */
+
+  .portfolio {
+    height: 50vh;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: middle;
+  }
+
+/* BANNER */
+  .banner {
+    height: 25vh;
+  }
+  .mern-pic {
+  width: 70px;
+  height: 70px;
+  }
+  
+/* CONTACT */
+  .beach {
     height: 100vh;
   }
   .contact-h1 {
@@ -364,7 +586,7 @@ a {
   }
 }
 
-@media (min-width: 765px) and (max-width: 1024px) {
+@media (min-width: 951px) and (max-width: 1023px) {
 
 /* INTRO */
 
@@ -377,7 +599,7 @@ a {
     font-size: 32px;
   }
   .title {
-    font-size: 80px;
+    font-size: 70px;
     text-align: center; 
   }
   .intro-title {
@@ -432,6 +654,74 @@ a {
   }
 }
 
-@media (min-width: 1025px) {
+/* Vertical  */
 
+ @media (min-width: 1024px) and (max-width: 1365px) and (min-height: 720px) and (max-height: 767px) {  
+  .portfolio {
+    height: 800px;
+  }
+  .about {
+    height: 210px;
+  }
+  .about-me-p {
+    font-size: 15px;
+  }
+  .corey-candid {
+    height: 175px;
+  }
+  .banner {
+    height: 200px;
+  }
+  .parallax2 {
+  position: absolute;
+  margin-top: 1600px;
+  }
 }
+
+ @media (min-width: 1024px) and (max-width: 1365px) and (min-height: 768px) and (max-height: 1023px) {  
+  .portfolio {
+    height: 700px;
+  }
+  .about {
+    height: 210px;
+  }
+  .about-me-p {
+    font-size: 15px;
+  }
+  .corey-candid {
+    height: 175px;
+  }
+  .banner {
+    height: 200px;
+  }
+  .parallax2 {
+  position: absolute;
+  margin-top: 1625px;
+  }
+}
+
+ @media (min-width: 1366px) and (min-height: 1024px) {  
+  .portfolio {
+    height: 675px;
+  }
+  .about {
+    height: 275px;
+  }
+  .about-me-p {
+    font-size: 20px;
+  }
+  .corey-candid {
+    height: 200px;
+  }
+  .banner {
+    height: 250px;
+  }
+   .parallax {
+  position: absolute;
+  margin-top: 1200px;
+  } 
+  .parallax2 {
+  position: absolute;
+  margin-top: 1900px;
+  }
+} 
