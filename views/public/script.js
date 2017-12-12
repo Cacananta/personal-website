@@ -17,18 +17,19 @@ $(document).ready(function () {
 
   // Smooth Scrolling
   $(function () {
+    let offSetScale = $(window).width() <= 1023 || $(window).height() <= 719 ? 0 : 285;
     $('a[href*=\\#]:not([href=\\#])').click(function () {
       if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
           $('html,body').animate({
-            scrollTop: target.offset().top - 285
+            scrollTop: target.offset().top - offSetScale
           }, 1500);
           return false;
         }
       }
-    });
+    })
   });
 
   // Function Calls 
@@ -36,5 +37,13 @@ $(document).ready(function () {
     parallaxScroll();
   });
   parallaxScroll();
+
+  window.addEventListener('load', e => {
+    $(window).width() <= 1023 || $(window).height() <= 719 ? $('.toggle-nav').attr('href', '#portfolio') : $('.toggle-nav').attr('href', '#about');
+  })
+
+  window.addEventListener('resize', e => {
+    $(window).width() <= 1023 || $(window).height() <= 719 ? $('.toggle-nav').attr('href', '#portfolio') : $('.toggle-nav').attr('href', '#about');;
+  })
 
 });
